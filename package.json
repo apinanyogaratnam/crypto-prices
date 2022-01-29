@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/apinanyogaratnam/crypto-prices#readme",
+  "bugs": {
+    "url": "https://github.com/apinanyogaratnam/crypto-prices/issues"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
