@@ -20,6 +20,5 @@ const getCoinPrice = async (coinId) => {
 };
 
 getCoinPrice('bitcoin');
-
 ```
 
