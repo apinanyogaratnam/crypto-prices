@@ -1,4 +1,4 @@
-import cryptoPrices from '@apinanyogaratnam/crypto-prices';
+import { getCoins, getPrice } from '@apinanyogaratnam/crypto-prices';
 
 // returns all coins available to view price (id, symbol, and name)
 const getAllCoins = async () => {
