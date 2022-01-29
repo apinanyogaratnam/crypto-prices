@@ -22,3 +22,6 @@ const getCoinPrice = async (coinId) => {
 getCoinPrice('bitcoin');
 ```
 
+### Development
+1. npm i
+2. node index.js
