@@ -2,6 +2,7 @@
   "name": "crypto-prices",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/apinanyogaratnam/crypto-prices#readme",
   "main": "index.js",
   "type": "module",
   "scripts": {
