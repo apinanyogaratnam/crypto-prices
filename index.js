@@ -1,10 +1,25 @@
 import axios from 'axios';
 
-var coingecko_url = "https://api.coingecko.com/api/v3/coins/list"
-
 const getCoins = async () => {
-    const response = await axios.get(coingecko_url);
-    console.log(response);
+    let response;
+
+    try {
+        response = await axios.get("https://api.coingecko.com/api/v3/coins/list");
+    } catch (error) {
+        return error;
+    }
+    
+    return response.data
 }
 
-getCoins();
+const getPrice = async (coinId) => {
+    let response;
+
+    try {
+        response = await axios.get(`https://api.coingecko.com/api/v3/simple/price?ids=${coinId}&vs_currencies=usd`);
+    } catch (error) {
+        return error;
+    }
+    
+    return response.data
+}
