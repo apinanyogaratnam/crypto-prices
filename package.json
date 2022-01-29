@@ -1,10 +1,14 @@
 {
-  "name": "crypto-prices",
+  "name": "@apinanyogaratnam/crypto-prices",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/apinanyogaratnam/crypto-prices#readme",
   "bugs": {
     "url": "https://github.com/apinanyogaratnam/crypto-prices/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apinanyogaratnam/crypto-prices.git"
   },
   "main": "index.js",
   "type": "module",
